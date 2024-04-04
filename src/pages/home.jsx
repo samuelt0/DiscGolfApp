@@ -9,7 +9,7 @@ function home() {
 				<div className="container">
 					<div className="col-12 col-md-9 col-lg-6 py-5">
 						<h1 className="hdrcolor">Your One Stop for Disc Golf!</h1>
-						<p className="text-white lead">Our website offers a wide range of services for every Disc Golfer.</p>
+						<p className="text-gray lead">Our website offers a wide range of services for every Disc Golfer.</p>
 					</div>
 				</div>
 			</div>

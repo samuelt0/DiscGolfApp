@@ -5,7 +5,7 @@ function footer() {
 		<>
 			<footer>
 				<div className="container d-lg-flex align-items-center justify-content-between py-3 small text-center">
-					<div className="text-white small">Copyright © 2024 Samuel Tesfai, Alan Chan, Peter Donarum - All rights reserved</div>
+					<div className="text-gray small">Copyright © 2024 Samuel Tesfai, Alan Chan, Peter Donarum - All rights reserved</div>
 				</div>
 			</footer>
 		</>
