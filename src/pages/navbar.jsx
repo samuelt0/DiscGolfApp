@@ -23,7 +23,6 @@ function Navbar() {
   useEffect(() => {
     showButton();
   
-    // Cleanup the event listener
     const handleResize = () => {
       showButton();
     };
@@ -41,7 +40,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                Disc Golf App <i className='fab fa-typo3' />
+                Disc Golf App <i className='fab faTypo3' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                   <FontAwesomeIcon icon={click ? faTimes : faBars} />
