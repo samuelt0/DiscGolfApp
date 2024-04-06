@@ -1,4 +1,26 @@
 import React from 'react';
+import Navbar from './pages/navbar';
+import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+function App() {
+  return (
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact />
+      </Routes>
+      </Router>
+    </>
+  )
+}
+
+export default App;
+
+
+/*
+import React from 'react';
 import Home from "./pages/home";
 import Play from "./pages/play";
 import Footer from "./pages/footer";
@@ -28,3 +50,4 @@ function App() {
 }
 
 export default App;
+*/
