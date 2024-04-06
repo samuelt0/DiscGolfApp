@@ -46,11 +46,6 @@ function Navbar() {
             <div className='menu-icon' onClick={handleClick}>
                   <FontAwesomeIcon icon={click ? faTimes : faBars} />
             </div>
-            <div>
-                  <FontAwesomeIcon icon={faBars} />
-                  <FontAwesomeIcon icon={faTimes} />
-            </div>
-
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
                     <Link to='/' className='nav-links' onClick={closeMobileMenu}>
