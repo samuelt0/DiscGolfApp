@@ -8,8 +8,8 @@ import Play from "./pages/play";
 import Footer from "./pages/footer";
 import NoPage from './pages/nopage';
 
-//import "bootstrap/dist/css/bootstrap.min.css";
-//import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (
