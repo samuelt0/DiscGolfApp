@@ -7,6 +7,12 @@ import Home from "./pages/home";
 import Play from "./pages/play";
 import Footer from "./pages/footer";
 import NoPage from './pages/nopage';
+import Practice from './pages/practice'
+import MillBrook from './pages/courses/millbrook'
+import Scarboro from './pages/courses/scarboro'
+import Rockfield from './pages/courses/rockfield'
+import Churchville from './pages/courses/churchville'
+import CMilton from './pages/courses/cmilton'
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -21,8 +27,13 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/play" element={<Play />} />
-        <Route path="/practice" element = {<NoPage />} />
+        <Route path="/practice" element = {<Practice />} />
         <Route path="/sign-up" element = {<sign-up />} />
+        <Route path="/millbrook" element = {<MillBrook />} />
+        <Route path="/scarboro" element = {<Scarboro />} />
+        <Route path="/rockfield" element = {<Rockfield />} />
+        <Route path="/churchville" element = {<Churchville />} />
+        <Route path="/cmilton" element = {<CMilton />} />
       </Routes>
       </Router>
       <Footer></Footer>
@@ -31,37 +42,3 @@ function App() {
 }
 
 export default App;
-
-
-/*
-import React from 'react';
-import Home from "./pages/home";
-import Play from "./pages/play";
-import Footer from "./pages/footer";
-import Navbar from "./pages/navbar";
-import NoPage from './pages/nopage';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
-function App() {
-  return (
-    <div>
-      
-      <BrowserRouter>
-      <Navbar> </Navbar>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/play" element={<Play />} />
-        <Route path="*" element = {<NoPage />} />
-      </Routes>
-      </BrowserRouter>
-      <Footer> </Footer>
-    </div>
-  );
-}
-
-export default App;
-*/
