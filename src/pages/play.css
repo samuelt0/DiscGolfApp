@@ -1,0 +1,102 @@
+.scorecard {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .scorecard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .scorecard-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .scorecard-header select,
+  .scorecard-header button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scorecard-header select:hover,
+  .scorecard-header button:hover {
+    background-color: #45a049;
+  }
+  
+  .scorecard-header select {
+    margin-left: 10px;
+  }
+  
+.scorecard-table {
+    width: 100%;
+    max-width: 100%; /* Ensure table does not exceed container width */
+    border-collapse: collapse;
+}
+  
+.scorecard-table th,
+.scorecard-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+  
+.scorecard-table th {
+    background-color: #4caf50;
+    color: #fff;
+}
+  
+.scorecard-table input[type='text'],
+.scorecard-table input[type='number'] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.scorecard-table input[type='number']::-webkit-inner-spin-button,
+.scorecard-table input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+.scorecard-table input[type='number'] {
+    -moz-appearance: textfield;
+}
+  
+.scorecard-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e91e63;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.scorecard-table button:hover {
+    background-color: #c2185b;
+}
+  
+.scorecard-table .remove-button-container {
+    display: flex;
+    align-items: center;
+}
+  
+.scorecard-table .remove-button-container button {
+    margin-right: 5px;
+}
+  

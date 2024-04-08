@@ -13,6 +13,7 @@ import Scarboro from './pages/courses/scarboro'
 import Rockfield from './pages/courses/rockfield'
 import Churchville from './pages/courses/churchville'
 import CMilton from './pages/courses/cmilton'
+import Loginx from './pages/loginsignup';
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -28,12 +29,13 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/play" element={<Play />} />
         <Route path="/practice" element = {<Practice />} />
-        <Route path="/sign-up" element = {<sign-up />} />
+        <Route path="/login" element = {<Loginx />} />
         <Route path="/millbrook" element = {<MillBrook />} />
         <Route path="/scarboro" element = {<Scarboro />} />
         <Route path="/rockfield" element = {<Rockfield />} />
         <Route path="/churchville" element = {<Churchville />} />
         <Route path="/cmilton" element = {<CMilton />} />
+        <Route path="*" element = {<NoPage />} />
       </Routes>
       </Router>
       <Footer></Footer>

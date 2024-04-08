@@ -29,8 +29,9 @@ const practice = () => {
               Churchville
             </Link>
             <Link to='/cmilton' className='practice-course'> 
-              C Milton
+              C Milton 
             </Link>
+            
           </li>
         </ul>
       </prac>
